@@ -1,0 +1,15 @@
+{
+  "name": "pulsartimestamp",
+  "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "test:cloudExisting": "tsx src/cloudTestExistingTopic.ts",
+    "test:cloud": "tsx src/cloudTest.ts",
+    "test:local": "tsx src/localTest.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.4",
+    "dotenv": "^16.3.1",
+    "pulsar-client": "^1.9.0",
+    "tsx": "^4.7.0"
+  }
+}
